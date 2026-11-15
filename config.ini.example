@@ -1,0 +1,48 @@
+[orthanc]
+url = # ORTHANC ip and port here
+username = 
+password = 
+
+[dtfc]
+source_path = \\[host server]\Sensor  Data\Sensor Data Siger - Room 13
+
+[sopro]
+source_path = \\[host server]\Alain X-Ray Data\Images
+
+[imagesensor]
+source_path = \\[host server]\C$\Program Files (x86)\ImageSensor\Images
+
+
+[aidental]
+source_path = \\[host server]\C$\Ai-Dental-Images\patients
+aidental_mysql_host=[host server]
+aidental_mysql_user=devuser
+aidental_mysql_password=
+aidental_mysql_database=ypb
+aidental_mysql_port=3383
+
+
+
+
+[drsviewer]
+database_path=\\[host server]\C$\Program Files (x86)\DrsViewer2\DrsDB.ddb
+source_path=\\[host server]\C$\Program Files (x86)\DrsViewer2\CaptureImage
+
+[dbswin]
+source_path=\\[host server]\Shares\Xrays and Machines Data\DBS\DBSData\pr1\XrayImg
+
+[ais]
+source_path=\\[host server]\C$\AIS\Patient
+ais_postgres_host=[host server]
+ais_postgres_user=devuser
+ais_postgres_password=
+ais_postgres_database=whdb
+ais_postgres_port=6543
+
+[rviewer]
+source_path=\\[host server]\c$\RMD\File Server
+rviewer_mysql_host=[host server]
+rviewer_mysql_user=devuser
+rviewer_mysql_password=
+rviewer_mysql_port=17814
+rviewer_mysql_database=remedi

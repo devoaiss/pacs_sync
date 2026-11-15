@@ -1,0 +1,37 @@
+@'
+# Sensitive configuration
+config.ini
+.env
+.env.*
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+logs.txt
+
+# DICOM / Patient data
+*.dcm
+*.dicom
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+'@ | Set-Content .gitignore
